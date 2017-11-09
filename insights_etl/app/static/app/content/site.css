@@ -1,0 +1,123 @@
+﻿body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.iff-padding-30 {
+    padding-left:30px;
+    padding-right:30px;
+}
+.iff-padding-15 {
+    padding-left:15px;
+    padding-right:15px;
+}
+.iff-padding-6 {
+    padding-left:6px;
+    padding-right:6px;
+}
+.iff-padding-l6 {
+    padding-left:6px;
+    padding-right:0px;
+}
+.iff-padding-0 {
+    padding-left:0px;
+    padding-right:0px;
+}
+
+.iff-margin-0 {
+    margin-left:0px;
+    margin-right:0px;
+}
+
+.iff-margin-t15 {
+    margin-top:15px;
+}
+
+.iff-card-6 {
+    box-shadow: 6px 6px 5px grey;
+    margin: 3px;
+}
+
+.iff-card-header {
+    background-color: lightblue;
+    font-size: 12px;
+    padding: 2px;
+}
+
+.iff-card-body {
+    padding: 3px;
+}
+
+/* styles for validation helpers */
+.field-validation-error {
+    color: #b94a48;
+}
+
+.field-validation-valid {
+    display: none;
+}
+
+input.input-validation-error {
+    border: 1px solid #b94a48;
+}
+
+input[type="checkbox"].input-validation-error {
+    border: 0 none;
+}
+
+.validation-summary-errors {
+    color: #b94a48;
+}
+
+.validation-summary-valid {
+    display: none;
+}
+
+
+/* Style for CI*/
+  .bold-green-font {
+    font-weight: bold;
+    text-align : right;
+    color: green;
+  }
+
+  .benchmark {
+    font-weight: bold;
+    text-align : right;
+    color: blue;
+  }
+  .win95 {
+    text-align : right;
+    color: darkgreen;
+  }
+  .win90 {
+    text-align : right;
+    color: green;
+  }
+  .win80 {
+    text-align : right;
+    color: lightgreen;
+  }
+  .lose95 {
+    text-align : right;
+    color: darkred;
+  }
+  .lose90 {
+    text-align : right;
+    color: red;
+  }
+  .lose80 {
+    text-align : right;
+    color: indianred;
+  }
+
+  .orange-background {
+    background-color: orange;
+  }
+        

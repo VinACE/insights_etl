@@ -1,0 +1,42 @@
+
+{% extends "app/layout.html" %}
+
+{% block content %}
+
+<div class="jumbotron">
+    <h1>IFF Insight Platform</h1>
+    <p class="lead">Load, Scrape, Load the internal and external Datasets</p>
+</div>
+<div class="row">
+    <div class="col-md-4">
+        <h2>Load</h2>
+        <p>
+            Load data from an external source. This can be an excel file, but also anotehr database.
+        </p>
+        <p><a class="btn btn-primary" href="{% url 'load' %}">Load &raquo;</a></p>
+    </div>
+    <div class="col-md-4">
+        <h2>Admin</h2>
+        <p>
+            Re-create a Index for certain web-site(s). Re-creating an index on the Elastic Search Engine means that the existing index,
+            with all of its content, is first deleted. Next the Index is created with a field for each facet that is defined for the
+            connected site(s).
+        </p>
+        <p><a class="btn btn-primary" href="{% url 'fmi_admin' %}">ElasticSearch Admin &raquo;</a></p>          
+    </div>
+</div>
+
+{% endblock %}
+
+{% block scripts %}
+    {% load staticfiles %}
+        <script src="{% static 'app/scripts/jquery.validate.min.js' %}"></script>
+        <script src="{% static 'app/scripts/platformsearch.js' %}"></script>
+
+<script>
+
+</script>
+
+{% endblock %}
+
+
